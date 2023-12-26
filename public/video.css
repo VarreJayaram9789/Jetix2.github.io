@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+form {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#searchInput {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#timestampsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#timestampsList li {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+}
+
+#timestampsList li:hover {
+  background-color: #ddd;
+}
+
+#videoPlayer {
+  width: 100%;
+  margin-top: 20px;
+}

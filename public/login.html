@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Your existing styles here */
+   body {
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url("img/login_wall.jpg");
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+      }
+   
+  
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  font-size:24px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 25px 25px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size:24px;
+}
+button:hover {
+  opacity: 0.5;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 25px 0 15px 0;
+}
+
+img.avatar {
+  width: 55%;
+  border-radius: 75%;
+}
+
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+.remember-forgot-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px; /* Increased max-width for better spacing */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 15px; /* Increased padding for better spacing */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  border-radius: 10px; /* Add some border-radius for a rounded look */
+}
+
+}
+span.psw {
+  padding-top: 16px;
+  font-size: 18px; /* Reduced font size for better proportion */
+}
+.remember-forgot-container label {
+  font-size: 20px; /* Reduced font size for better proportion */
+}
+remember-forgot-container input[type="checkbox"] {
+  transform: scale(1.2); /* Adjust the scale of the checkbox */
+  margin-right: 5px; /* Add some spacing to the right of the checkbox */
+}
+.header {
+  
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+input[type=text]::placeholder, input[type=password]::placeholder {
+  text-align: center;
+  line-height: inherit;
+}
+
+/* Other existing styles */
+input[type=text], input[type=password] {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 7px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+  </style>
+</head>
+<body>
+  <div class="login-container">
+  <form action="" method="post">
+    <div class="imgcontainer">
+      <img src="img/login_logo.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <h3 class="header">
+	<label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+</h3>
+<h3 class="header">
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  </h3>  
+      <button type="submit" name="login">Login</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <div class="remember-forgot-container">
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me 
+        </label>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+ <script src="app.js"></script>
+  <?php
+  if(isset($_POST['login'])) {
+    // Get the input values
+    $username = $_POST['uname'];
+    $password = $_POST['psw'];
+   
+
+    
+   // Process the SOAP request here
+
+  // You can add your SOAP request logic here
+  // For example, create a SOAP client, set the endpoint, and make the SOAP request//
+  // $client = new SoapClient('http://example.com/your-soap-endpoint?wsdl');//
+  // $result = $client->
+
+
+  <script>alert("Press OK for Loginpage")</script>
+
+</body>
+</html>
+
